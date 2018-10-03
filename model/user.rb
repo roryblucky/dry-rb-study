@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative './city_state'
 require_relative  './city'
 require_relative  './address'
@@ -9,7 +11,7 @@ class User
   end
 
   class << self
-    def find(id)
+    def find(_id)
       state = CityState.new('weibin')
       city = City.new(state)
       address = Address.new(city)

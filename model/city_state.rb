@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CityState
   attr_accessor :name
 

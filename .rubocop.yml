@@ -1,0 +1,13 @@
+AllCops:
+  TargetRubyVersion: 2.5.1
+
+Metrics/LineLength:
+  Max: 110
+  Exclude:
+  - 'config/**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Lint/MissingCopEnableDirective:
+  Enabled: false
